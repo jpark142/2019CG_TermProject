@@ -1,9 +1,18 @@
-#include <GL/glew.h> // 필요한 헤더파일 include 
-#include <GL/freeglut.h> 
-#include <GL/freeglut_ext.h>
-#include "glm/glm/glm.hpp"
-#include "glm/glm/ext.hpp"
-#include "glm/glm/gtc/matrix_transform.hpp"
+//#include <GL/glew.h> // 필요한 헤더파일 include 
+//#include <GL/freeglut.h> 
+//#include <GL/freeglut_ext.h>
+//#include "glm/glm/glm.hpp"
+//#include "glm/glm/ext.hpp"
+//#include "glm/glm/gtc/matrix_transform.hpp"
+#include "Dependencies\glew.h"
+#include "Dependencies\freeglut.h"
+#include "Dependencies\glew.h"
+#include "Dependencies\wglew.h"
+
+#include "Dependencies\glm/glm.hpp"
+#include "Dependencies\glm/ext.hpp"
+#include "Dependencies\glm/gtc/matrix_transform.hpp"
+#include "Dependencies\glm/gtx/euler_angles.hpp"
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
@@ -14,7 +23,7 @@
 #include <iterator>
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "헤더.h"
+#include "stb_image.h"
 
 using namespace std;
 

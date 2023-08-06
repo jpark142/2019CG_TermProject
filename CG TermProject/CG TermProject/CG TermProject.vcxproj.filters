@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{e647712d-3765-4418-833e-a97c004d1f76}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="termproject.cpp">
@@ -20,27 +23,27 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="tp.glvs">
-      <Filter>소스 파일</Filter>
-    </None>
     <None Include="tp_fragment.glfs">
-      <Filter>소스 파일</Filter>
+      <Filter>Shader</Filter>
     </None>
-    <None Include="test.glfs">
-      <Filter>소스 파일</Filter>
+    <None Include="tp.glvs">
+      <Filter>Shader</Filter>
     </None>
     <None Include="test.glvs">
-      <Filter>소스 파일</Filter>
+      <Filter>Shader</Filter>
     </None>
-    <None Include="game_over.glfs">
-      <Filter>소스 파일</Filter>
+    <None Include="test.glfs">
+      <Filter>Shader</Filter>
     </None>
     <None Include="game_over.glvs">
-      <Filter>소스 파일</Filter>
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="game_over.glfs">
+      <Filter>Shader</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="헤더.h">
+    <ClInclude Include="stb_image.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
