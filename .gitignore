@@ -55,6 +55,10 @@ dlldata.c
 *.iobj
 *.ipdb
 *.lastbuildstate
+*.db
+*.bin
+*.recipe
+*.lock
 
 # Chutzpah Test files
 _Chutzpah*
