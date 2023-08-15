@@ -16,5 +16,5 @@ void main()
 {
 	gl_Position = projectionTransform * viewTransform * modelTransform * vec4 (vPos, 1.0f); //---객체의좌표에변환행렬을적용한다.
 	outColor = vColor; // vertex data로부터가져온컬러입력을outColor에설정
-	TexCoord = vec2(vTexCoord.x, vTexCoord.y);
+	TexCoord = vec2(vTexCoord.x, 1 - vTexCoord.y);
 } 

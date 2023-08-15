@@ -149,6 +149,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Objects.cpp" />
+    <ClCompile Include="ShaderManager.cpp" />
+    <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="termproject.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,7 +163,10 @@
     <None Include="tp_fragment.glfs" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Objects.h" />
+    <ClInclude Include="ShaderManager.h" />
     <ClInclude Include="stb_image.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

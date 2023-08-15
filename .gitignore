@@ -59,6 +59,8 @@ dlldata.c
 *.bin
 *.recipe
 *.lock
+*.db-shm
+*.db-wal
 
 # Chutzpah Test files
 _Chutzpah*

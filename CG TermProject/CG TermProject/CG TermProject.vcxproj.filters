@@ -21,6 +21,15 @@
     <ClCompile Include="termproject.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Objects.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="tp_fragment.glfs">
@@ -44,6 +53,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
